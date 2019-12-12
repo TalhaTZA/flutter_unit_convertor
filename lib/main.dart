@@ -5,10 +5,7 @@
 // You can read about packages here: https://flutter.io/using-packages/
 import 'package:flutter/material.dart';
 import 'category.dart';
-
-const _categoryName = 'Cake';
-const _categoryIcon = Icons.cake;
-const _categoryColor = Colors.green;
+import 'category_route.dart';
 
 void main() {
   runApp(UnitConverterApp());
@@ -23,11 +20,7 @@ class UnitConverterApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.green[100],
         body: Center(
-          child: Category(
-            name: _categoryName,
-            color: _categoryColor,
-            iconLocation: _categoryIcon,
-          ),
+          child: CategoryRoute(),
         ),
       ),
     );
