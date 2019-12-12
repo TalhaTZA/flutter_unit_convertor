@@ -4,7 +4,6 @@
 
 // You can read about packages here: https://flutter.io/using-packages/
 import 'package:flutter/material.dart';
-import 'category.dart';
 import 'category_route.dart';
 
 void main() {
