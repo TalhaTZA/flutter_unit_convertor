@@ -38,7 +38,7 @@ class Category extends StatelessWidget {
         .push(MaterialPageRoute<Null>(builder: (BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          elevation: 1.0,
+          elevation: 5.0,
           title: Text(
             name,
             style: Theme.of(context).textTheme.display1,
